@@ -37,7 +37,7 @@ The pipeline uses the BraTS (Brain Tumor Segmentation) dataset from the Universi
 - Various types of brain tumors
 
 Sample MRI data from the dataset:
-![Sample MRI Data](Untitled_design.gif)
+![Sample MRI Data](Dataset.gif)
 
 ## Results
 The pipeline achieves excellent results in tumor type classification, as shown below:
