@@ -8,7 +8,7 @@ The project combines segmentation and classification in a two-stage pipeline tha
 2. Classifies the tumor type (Glioma, Meningioma, or Pituitary)
 
 ## Pipeline Architecture
-![Pipeline Architecture](images/architecture.png)
+![Pipeline Architecture](architecture.png)
 
 The pipeline consists of two main deep learning models:
 
@@ -37,12 +37,12 @@ The pipeline uses the BraTS (Brain Tumor Segmentation) dataset from the Universi
 - Various types of brain tumors
 
 Sample MRI data from the dataset:
-![Sample MRI Data](images/sample_data.png)
+![Sample MRI Data](Untitled_design.gif)
 
 ## Results
 The pipeline achieves excellent results in tumor type classification, as shown below:
 
-![Classification Results](images/results.png)
+![Classification Results](Result.png)
 
 ### Classification Accuracy
 - **Glioma**: 97% accuracy
