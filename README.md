@@ -7,6 +7,13 @@ The project combines segmentation and classification in a two-stage pipeline tha
 1. Identifies and segments tumor regions in MRI scans
 2. Classifies the tumor type (Glioma, Meningioma, or Pituitary)
 
+---
+
+## Capstone Poster
+![Capstone Poster](Capstone Poster.png)
+---
+
+
 ## Pipeline Architecture
 ![Pipeline Architecture](architecture.png)
 
