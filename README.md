@@ -10,8 +10,9 @@ The project combines segmentation and classification in a two-stage pipeline tha
 ---
 
 ## Capstone Poster
-![Capstone Poster](Capstone Poster.png)
----
+
+![CapstonePoster](CapstonePoster.png)
+
 
 
 ## Pipeline Architecture
