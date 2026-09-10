@@ -1,0 +1,19 @@
+name: Sync to Hugging Face Hub
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:   # lets you trigger it manually too
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+      - uses: huggingface/hub-sync@v0.1.0
+        with:
+          github_repo_id: ${{ github.repository }}
+          huggingface_repo_id: Adnane-Ahroum/your-hf-repo-name
+          repo_type: model   # change to 'dataset' or 'space' as needed
+          hf_token: ${{ secrets.HF_TOKEN }}
